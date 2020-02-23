@@ -1,0 +1,53 @@
+{
+  "name": "@acaciomartins/react-native-simpletable",
+  "version": "0.1.0",
+  "description": "A Simple Table component for React Native",
+  "main": "index.js",
+  "keywords": [
+    "react-native",
+    "react-component",
+    "react-native-component",
+    "react",
+    "react native",
+    "mobile",
+    "ios",
+    "android",
+    "ui",
+    "simple table component"
+  ],
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "web": "expo start --web",
+    "start": "react-native start",
+    "test": "jest",
+    "author": "Acácio Martins"
+  },
+  "dependencies": {
+    "react": "~16.9.0",
+    "react-dom": "~16.9.0",
+    "react-native": "~0.61.4"
+  },
+  "devDependencies": {
+    "@babel/core": "~7.6.0",
+    "babel-jest": "~24.9.0",
+    "expo": "~36.0.0",
+    "jest": "~24.9.0",
+    "metro-react-native-babel-preset": "^0.56.4",
+    "react-native-gesture-handler": "~1.5.0",
+    "react-native-reanimated": "~1.4.0",
+    "react-native-screens": "2.0.0-alpha.12",
+    "react-native-unimodules": "~0.7.0",
+    "react-native-web": "~0.11.7",
+    "react-test-renderer": "~16.9.0"
+  },
+  "peerDependencies": {
+    "react": "16.x",
+    "react-dom": "16.x",
+    "react-native": "~0.x"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "private": false
+}
