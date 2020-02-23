@@ -3,6 +3,13 @@
   "version": "0.1.0",
   "description": "A Simple Table component for React Native",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acaciomartins/acaciomartins-react-native-simpletable.git"
+  },
+  "bugs": {
+    "url": "https://github.com/acaciomartins/acaciomartins-react-native-simpletable/issues"
+  },
   "keywords": [
     "react-native",
     "react-component",
