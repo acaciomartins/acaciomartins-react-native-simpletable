@@ -5,7 +5,7 @@ export default function SimpleTable(props) {
     const [columns, setColumns] = useState([]);
 
     useEffect(() => {
-        setColumns(props.headerData);
+        setColumns(props.headerName);
     }, [props.data])
 
     return (
@@ -13,7 +13,7 @@ export default function SimpleTable(props) {
             {
                 props.data && props.data.length > 0 ? (
                     <View style={styles.table} >
-                        {props.headerData && props.headerData.map(hd => (
+                        {props.headerName && props.headerName.map(hd => (
                             <Text style={[styles.tableText, { width: hd.size, backgroundColor: '#c0c0c0' }]}>{hd.name}</Text>
 
                         ))}
@@ -24,7 +24,7 @@ export default function SimpleTable(props) {
             {
                 props.data && props.data.map(item => (
                     <View style={styles.table}>
-                        {props.columnData && props.columnData.map((hd, index) => (
+                        {props.columnName && props.columnName.map((hd, index) => (
                             <Text style={[styles.tableText, { width: columns && columns[index] && columns[index].size }]}>{item[hd]}{}</Text>
 
                         ))}
