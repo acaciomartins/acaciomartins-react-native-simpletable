@@ -13,24 +13,24 @@ import SimpleTable from '@acaciomartins/react-native-simpletable';
 ```
 
 ```javascript
-const headerData = [{ name: "Name", size: 70 }, { name: "Description", size: 120 }, { name: "Amount", size: 80 }, { name: "Price", size: 70 }];
-const columnData = ["name", "description", "amount", "price"];
+const headerName = [{ name: "Name", size: 70 }, { name: "Description", size: 120 }, { name: "Amount", size: 80 }, { name: "Price", size: 70 }];
+const columnName = ["name", "description", "amount", "price"];
 const tableData = [
   { name: "Product 1", description: "Description Product 1", price: "1,99", amount: "1" }, 
   { name: "Product 2", description: "Description Product 2", price: "2,99", amount: "2" }];
     
 <SimpleTable
     data={tableData}
-    headerData={headerData}
-    columnData={columnData}
+    headerName={headerName}
+    columnName={columnName}
 />
 ```
 
 **Props**
 <ul>
 <li>data</li>
-<li>headerData</li>
-<li>columnData</li>
+<li>headerName</li>
+<li>columnName</li>
 </ul>
 <table>
   <thead>
@@ -49,14 +49,14 @@ const tableData = [
       <td>[{ name: "Product 1", description: "Description Product 1", price: "1,99", amount: "1" },{ name: "Product 2", description: "Description Product 2", price: "2,99", amount: "2" }]</td>
     </tr>    
     <tr>
-      <td>headerData</td>
+      <td>headerName</td>
       <td>Array</td>
       <td>-</td>
-      <td>Columns names and columns size</td>
+      <td>Headers names and headers size</td>
       <td>[{ name: "Name", size: 70 }, { name: "Description", size: 120 }, { name: "Amount", size: 80 }, { name: "Price", size: 70 }]</td>
     </tr>
      <tr>
-      <td>columnData</td>
+      <td>columnName</td>
       <td>Array</td>
       <td>-</td>
       <td>Columns names</td>
