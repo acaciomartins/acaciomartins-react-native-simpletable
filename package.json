@@ -1,6 +1,6 @@
 {
   "name": "@acaciomartins/react-native-simpletable",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A Simple Table component for React Native",
   "main": "index.js",
   "repository": {
